@@ -21,7 +21,8 @@ public class Cart {
         if (product != null)
             cartMap.merge(product, quantity, Integer::sum);
     }
-
+    
+    
     public void delProduct(Product product, Integer quantity) {
         if (cartMap.containsKey(product)) {
             if (quantity != null && cartMap.get(product).compareTo(quantity) > 0) {
