@@ -18,6 +18,7 @@ public interface CartService {
 
     void printCart(Cart cart);
 
+    
     int getProductQuantity(Cart cart, Product product);
     int getProductQuantity(Cart cart, Long prodId);
 }
