@@ -61,6 +61,7 @@ public class CartServiceImpl implements CartService {
         System.out.println("Общая стоимость продуктов в корзине: " + sum);
     }
 
+
     @Override
     public int getProductQuantity(Cart cart, Product product) {
         if (cart.getCartMap().containsKey(product)) {

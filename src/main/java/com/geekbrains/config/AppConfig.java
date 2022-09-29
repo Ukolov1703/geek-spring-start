@@ -34,6 +34,7 @@ public class AppConfig implements WebMvcConfigurer {
         return templateResolver;
     }
 
+
     @Bean
     public SpringTemplateEngine templateEngine() {
         SpringTemplateEngine templateEngine = new SpringTemplateEngine();

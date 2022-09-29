@@ -11,7 +11,6 @@ public class CartController {
     @GetMapping
     public String cart (Model model) {
         model.addAttribute("currentPage", "cart");
-
         return "cart";
     }
 
