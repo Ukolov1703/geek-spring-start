@@ -29,7 +29,6 @@ public class ProductController {
         return "products";
     }
 
-
     @GetMapping("/edit")
     public String editProduct(@RequestParam(required = false) Long id,
                               @RequestParam(required = false) Boolean view,

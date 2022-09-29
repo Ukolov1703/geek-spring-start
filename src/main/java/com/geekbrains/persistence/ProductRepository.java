@@ -9,7 +9,6 @@ import java.util.concurrent.ConcurrentHashMap;
 @Component
 public class ProductRepository {
 
-
     private static final ProductRepository INSTANCE = new ProductRepository();
     private final Map<Long, Product> productMap = new ConcurrentHashMap<>();
 

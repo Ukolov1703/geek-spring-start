@@ -14,7 +14,6 @@ public interface CartService {
 
     void delProduct(Cart cart, Product product, Integer quantity);
 
-
     BigDecimal getSum(Cart cart);
 
     void printCart(Cart cart);

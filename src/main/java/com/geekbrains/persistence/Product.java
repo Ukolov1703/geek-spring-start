@@ -23,7 +23,6 @@ public class Product {
     public BigDecimal getPrice() { return price; }
     public void setPrice(BigDecimal price) { this.price = price; }
 
-
     @Override
     public String toString() {
         return String.format("Product {id = %-2s | name = %-15s | price = %-8s}", id, name, price);

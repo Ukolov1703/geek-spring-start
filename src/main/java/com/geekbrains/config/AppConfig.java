@@ -15,6 +15,7 @@ import org.thymeleaf.templatemode.TemplateMode;
 @Configuration
 @ComponentScan("com.geekbrains")
 public class AppConfig implements WebMvcConfigurer {
+
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/resources/**").addResourceLocations("/resources/");

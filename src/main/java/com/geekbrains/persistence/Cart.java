@@ -32,7 +32,6 @@ public class Cart {
         }
     }
 
-
     public BigDecimal getSum() {
         BigDecimal sum = BigDecimal.valueOf(0);
         for (Map.Entry<Product, Integer> entry : cartMap.entrySet()) {

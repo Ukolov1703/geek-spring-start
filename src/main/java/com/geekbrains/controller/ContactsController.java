@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class ContactsController {
 
 
+
     @GetMapping
     public String contacts (Model model) {
         model.addAttribute("currentPage", "contacts");
