@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/")
 public class IndexController {
 
+
+
     @GetMapping(value="/")
     public String index (Model model) {
         model.addAttribute("message", "Hello World");

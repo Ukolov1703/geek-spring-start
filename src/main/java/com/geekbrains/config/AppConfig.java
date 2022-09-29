@@ -15,6 +15,7 @@ import org.thymeleaf.templatemode.TemplateMode;
 @Configuration
 @ComponentScan("com.geekbrains")
 public class AppConfig implements WebMvcConfigurer {
+
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/resources/**").addResourceLocations("/resources/");
@@ -32,6 +33,7 @@ public class AppConfig implements WebMvcConfigurer {
         templateResolver.setCacheable(false);
         return templateResolver;
     }
+
 
     @Bean
     public SpringTemplateEngine templateEngine() {

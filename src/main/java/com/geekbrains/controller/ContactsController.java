@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/contacts")
 public class ContactsController {
 
+
+
     @GetMapping
     public String contacts (Model model) {
         model.addAttribute("currentPage", "contacts");
