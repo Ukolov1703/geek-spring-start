@@ -1,4 +1,4 @@
-package com.geekbrains.persistance;
+package com.geekbrains.persistence;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;

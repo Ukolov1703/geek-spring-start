@@ -1,4 +1,4 @@
-package com.geekbrains.persistance;
+package com.geekbrains.persistence;
 
 import java.math.BigDecimal;
 
