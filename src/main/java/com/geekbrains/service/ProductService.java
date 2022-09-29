@@ -4,6 +4,7 @@ import com.geekbrains.persistence.Product;
 
 import java.util.List;
 
+
 public interface ProductService {
 
     List<Product> getProductList();
