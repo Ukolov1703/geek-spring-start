@@ -21,7 +21,8 @@ public class ProductController {
     public ProductController(ProductService productService) {
         this.productService = productService;
     }
-
+ 
+    
     @GetMapping
     public String showAll(Model model) {
         model.addAttribute("productList", productService.getProductList());
