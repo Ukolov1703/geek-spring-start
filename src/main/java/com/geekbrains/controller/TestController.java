@@ -12,7 +12,6 @@ public class TestController {
     @GetMapping
     public String test (Model model) {
         model.addAttribute("currentPage", "test");
-
         return "test";
     }
 }
